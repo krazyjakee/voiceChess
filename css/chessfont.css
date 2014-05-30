@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'xseederchessregular';
+    src: url('fonts/xseederchess-webfont.eot');
+    src: url('fonts/xseederchess-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/xseederchess-webfont.woff') format('woff'),
+         url('fonts/xseederchess-webfont.ttf') format('truetype'),
+         url('fonts/xseederchess-webfont.svg#xseederchessregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

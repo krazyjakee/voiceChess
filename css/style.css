@@ -1,0 +1,31 @@
+/* line 1, style.sass */
+body {
+  font-family: "xseederchessregular";
+  font-size: 50px;
+}
+
+/* line 5, style.sass */
+.tile {
+  width: 64px;
+  height: 64px;
+  float: left;
+}
+/* line 9, style.sass */
+.tile.black {
+  background-color: black;
+}
+/* line 11, style.sass */
+.tile.selected {
+  box-shadow: 0px 0px 5px 2px red;
+  position: relative;
+}
+
+/* line 15, style.sass */
+#container {
+  width: 512px;
+  height: 512px;
+  border: 2px solid black;
+  text-shadow: 0px 0px 1px white;
+  text-align: center;
+  line-height: 64px;
+}
